@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="floating_btn_color">#FFFFFF</color>
+    <color name="floating_action_button_icon_color">@color/floating_btn_color</color>
+    <color name="setting_button_pressed_color">#FFE7F0FF</color>
+
+    <color name="language_item_bg_color_pressed">#8891cc</color>
+    <color name="language_item_bg_color_normal">#66ffffff</color>
+    <color name="red">#eb2127</color>
+
+    <color name="setting_status_bar_color">#FFE7E9EF</color>
+</resources>

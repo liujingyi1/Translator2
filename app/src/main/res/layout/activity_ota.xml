@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ota_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ota_text_margin_top"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/ota_text_size"
+        android:text="@string/ota_text" />
+
+    <TextView
+        android:id="@+id/ota_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ota_textView"
+        android:layout_marginTop="@dimen/ota_text_margin_top"
+
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/ota_text_size" />
+
+    <ProgressBar
+        android:id="@+id/ota_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/ota_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:textSize="@dimen/ota_button_text_size"
+        android:layout_marginEnd="@dimen/ota_button_margin_end"
+        android:layout_marginBottom="@dimen/ota_button_margin_bottom"
+        android:layout_marginRight="@dimen/ota_button_margin_right"
+        android:background="#00000000"
+        android:text="@string/ota_update" />
+</RelativeLayout>
