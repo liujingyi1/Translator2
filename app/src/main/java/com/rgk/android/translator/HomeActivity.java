@@ -41,6 +41,10 @@ import com.rgk.android.translator.view.CircleIndicatorView;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+add somethind
+*/
+
 public class HomeActivity extends AppCompatActivity {
     private static final String TAG = "RTranslator/HomeActivity";
     public static final String PREF_NAME = "Translator";
